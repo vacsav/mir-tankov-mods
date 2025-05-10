@@ -1,0 +1,2 @@
+*.7z !text !filter !merge !diff
+* !text !filter !merge !diff
