@@ -15,6 +15,7 @@
 
 ### List of modifications
 
+- [Hawg mods for Lesta](./hawg-mods-for-lesta/)
 - [Reworked Advance Battle Results](./reworkedadvancebattleresults/): Changed images in the battle window result
 - [Reworked Camera](./reworkedcamera/): Reworked the logic of camera work in battle
 - [Reworked Cap Circle](./reworkedcapcircle/): 9 colors of capture circle
@@ -38,6 +39,7 @@
 
 ### Список модификаций
 
+- [Hawg mods for Lesta](./hawg-mods-for-lesta/)
 - [Reworked Advance Battle Results](./reworkedadvancebattleresults/): Изменены изображения в окне результатов боя
 - [Reworked Camera](./reworkedcamera/): Переработана логика работы камеры в бою
 - [Reworked Cap Circle](./reworkedcapcircle/): 9 цветов круга захвата
