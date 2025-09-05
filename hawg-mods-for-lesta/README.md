@@ -11,6 +11,7 @@
 
 List of modifications on WGmods:
 
+- [25 Damage Indicators](https://wgmods.net/1683/)
 - [35 Tank Battle Results](https://wgmods.net/1815/)
 - [Hawg's 108 Battle Exit's](https://wgmods.net/3335/)
 - [Anime - Advance Battle Results](https://wgmods.net/5344/)
@@ -31,6 +32,7 @@ List of modifications on WGmods:
 
 Список модификаций на WGmods:
 
+- [25 Damage Indicators](https://wgmods.net/1683/)
 - [35 Tank Battle Results](https://wgmods.net/1815/)
 - [Hawg's 108 Battle Exit's](https://wgmods.net/3335/)
 - [Anime - Advance Battle Results](https://wgmods.net/5344/)
