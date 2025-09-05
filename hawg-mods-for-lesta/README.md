@@ -11,6 +11,7 @@
 
 List of modifications on WGmods:
 
+- [8 Carousel Flags](https://wgmods.net/2044/)
 - [25 Damage Indicators](https://wgmods.net/1683/)
 - [35 Tank Battle Results](https://wgmods.net/1815/)
 - [Hawg's 108 Battle Exit's](https://wgmods.net/3335/)
@@ -22,6 +23,7 @@ List of modifications on WGmods:
 - [Sexy - Advance Battle Results](https://wgmods.net/5342/)
 - [Star Trek- Advance Battle Results](https://wgmods.net/5353/)
 - [20 Target Markers Pack](https://wgmods.net/2095/)
+- [Nation Flag Battle Results ++](https://wgmods.net/3739/)
 - [War - Advance Battle Results](https://wgmods.net/5315/)
 - [WWII - Advance Battle Results](https://wgmods.net/5354/)
 
@@ -32,6 +34,7 @@ List of modifications on WGmods:
 
 Список модификаций на WGmods:
 
+- [8 Carousel Flags](https://wgmods.net/2044/)
 - [25 Damage Indicators](https://wgmods.net/1683/)
 - [35 Tank Battle Results](https://wgmods.net/1815/)
 - [Hawg's 108 Battle Exit's](https://wgmods.net/3335/)
@@ -43,5 +46,6 @@ List of modifications on WGmods:
 - [Sexy - Advance Battle Results](https://wgmods.net/5342/)
 - [Star Trek- Advance Battle Results](https://wgmods.net/5353/)
 - [20 Target Markers Pack](https://wgmods.net/2095/)
+- [Nation Flag Battle Results ++](https://wgmods.net/3739/)
 - [War - Advance Battle Results](https://wgmods.net/5315/)
 - [WWII - Advance Battle Results](https://wgmods.net/5354/)
