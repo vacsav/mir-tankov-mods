@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 8
+
+- All mods have been updated
+
 ### 5
 
 Added:
