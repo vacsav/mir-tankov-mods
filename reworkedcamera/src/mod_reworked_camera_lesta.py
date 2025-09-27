@@ -1,9 +1,12 @@
-import Math, math_utils, BigWorld, BattleReplay, constants
+import Math, math_utils, BigWorld, BattleReplay, constants, logging
 from Math import Matrix
 from AvatarInputHandler.DynamicCameras.ArcadeCamera import ArcadeCamera, ENABLE_INPUT_ROTATION_INERTIA, _COLLIDE_ANIM_DIST, _COLLIDE_ANIM_INTERVAL
+from AvatarInputHandler.DynamicCameras.SniperCamera import SniperCamera
 from AvatarInputHandler.DynamicCameras.arcade_camera_helper import EScrollDir
 from account_helpers.settings_core.settings_constants import GAME
 from gui.battle_control import event_dispatcher
+_logger = logging.getLogger(__name__)
+
 
 def overrideIn(cls, condition=lambda : True):
 
@@ -39,12 +42,11 @@ def enable(func, self, preferredPos=None, closesDist=False, postmortemParams=Non
     elif initialVehicleMatrix is None:
         initialVehicleMatrix = player.getOwnVehicleMatrix(Math.Matrix(self.vehicleMProv)) if vehicle is None else vehicle.matrix
     vehicleMProv = initialVehicleMatrix
-    isPreCommanderCam = self._ArcadeCamera__compareCurrStateSettingsKey(GAME.PRE_COMMANDER_CAM)
-    isCommanderCam = self._ArcadeCamera__compareCurrStateSettingsKey(GAME.COMMANDER_CAM)
-    if isPreCommanderCam or isCommanderCam or arcadeState is not None:
-        state = None
-        newCameraDistance = self._cfg['distRange'].max
-        if arcadeState is not None:
+    if not self._ArcadeCamera__isInArcadeZoomState() or arcadeState is not None:
+        if arcadeState is None:
+            state = None
+            newCameraDistance = self._cfg['distRange'].max
+        else:
             self._ArcadeCamera__zoomStateSwitcher.switchToState(arcadeState.zoomSwitcherState)
             state = self._ArcadeCamera__zoomStateSwitcher.getCurrentState()
             newCameraDistance = arcadeState.camDist
@@ -112,7 +114,7 @@ def __update(func, self, dx, dy, dz, rotateMode = True, zoomMode = True):
             cameraPos = self._ArcadeCamera__aimingSystem.matrix.translation
             collisionWhileGlide = self._ArcadeCamera__cam.isColliding(BigWorld.player().spaceID, cameraPos)
         preventScrollOut = (isColliding or collisionWhileGlide) and (eScrollDir is EScrollDir.OUT) and not (isPreCommanderCam or isCommanderCam)
-        if preventScrollOut and prevDist == distMinMax.max and (preCommanderCam or commanderCam) and (self._ArcadeCamera__isInArcadeZoomState() or isPreCommanderCam):
+        if preventScrollOut and prevDist == distMinMax.max and commanderCam and ((self._ArcadeCamera__isInArcadeZoomState() and not preCommanderCam) or isPreCommanderCam):
             preventScrollOut = False
         if isColliding and eScrollDir is EScrollDir.OUT:
             self._ArcadeCamera__collideAnimatorEasing.start(_COLLIDE_ANIM_DIST, _COLLIDE_ANIM_INTERVAL)
@@ -149,8 +151,43 @@ def __update(func, self, dx, dy, dz, rotateMode = True, zoomMode = True):
 
 @overrideIn(ArcadeCamera)
 def __updateAdvancedCollision(func, self):
-    isPreCommanderCam = self._ArcadeCamera__compareCurrStateSettingsKey(GAME.PRE_COMMANDER_CAM)
-    isCommanderCam = self._ArcadeCamera__compareCurrStateSettingsKey(GAME.COMMANDER_CAM)
-    enable = isPreCommanderCam or isCommanderCam
+    enable = self._ArcadeCamera__compareCurrStateSettingsKey(GAME.PRE_COMMANDER_CAM) or self._ArcadeCamera__compareCurrStateSettingsKey(GAME.COMMANDER_CAM)
     self._ArcadeCamera__cam.setCollisionCheckOnlyAtPos(enable)
     self._ArcadeCamera__aimingSystem.cursorShouldCheckCollisions(not enable)
+
+
+@overrideIn(SniperCamera)
+def enable(func, self, targetPos, saveZoom):
+    self._SniperCamera__prevTime = BigWorld.time()
+    player = BigWorld.player()
+    if SniperCamera._SNIPER_ZOOM_LEVEL == -1:
+        if saveZoom:
+            self._SniperCamera__zoom = self._cfg['zoom']
+        else:
+            self._cfg['zoom'] = self._SniperCamera__zoom = self._cfg['zooms'][0]
+    elif len(self._cfg['zooms']) > SniperCamera._SNIPER_ZOOM_LEVEL + 1:
+        self._SniperCamera__zoom = self._cfg['zooms'][SniperCamera._SNIPER_ZOOM_LEVEL + 1]
+    else:
+        _logger.warning('zooms should always have enough length to use _SNIPER_ZOOM_LEVEL, using default now')
+        self._cfg['zoom'] = self._SniperCamera__zoom = self._cfg['zooms'][0]
+    self._SniperCamera__applyZoom(self._SniperCamera__zoom)
+    self._SniperCamera__setupCamera(targetPos)
+    vehicle = player.getVehicleAttached()
+    if self._SniperCamera__waitVehicleCallbackId is not None:
+        BigWorld.cancelCallback(self._SniperCamera__waitVehicleCallbackId)
+    if vehicle is None:
+        self._SniperCamera__waitVehicleCallbackId = BigWorld.callback(0.1, self._SniperCamera__waitVehicle)
+    else:
+        self._SniperCamera__showVehicle(False)
+    BigWorld.camera(self._SniperCamera__cam)
+    if self._SniperCamera__cameraUpdate(False) >= 0.0:
+        self.delayCallback(0.0, self._SniperCamera__cameraUpdate)
+    return
+
+
+@overrideIn(SniperCamera)
+def __getZooms(func, self):
+    zooms = self._cfg['zooms']
+    if not self._cfg['increasedZoom']:
+        zooms = zooms[:4]
+    return zooms
