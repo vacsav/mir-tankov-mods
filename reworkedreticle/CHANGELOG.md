@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.0.6
+
+- 1.38.0.0
+
 ### 1.0.5
 
 - Fixed crosshairs height

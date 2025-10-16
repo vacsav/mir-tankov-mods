@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.2.1
+
+- - 1.38.0.0
+
 ### 1.2.0
 
 - Removed x1 zoom
