@@ -1,7 +1,15 @@
 import Math, BattleReplay, BigWorld, constants
 from Math import Matrix
+from realm import CURRENT_REALM
 from account_helpers.settings_core.settings_constants import GAME
 from AvatarInputHandler.DynamicCameras.ArcadeCamera import ArcadeCamera
+_logger = logging.getLogger(__name__)
+
+def getClientType():
+    return CURRENT_REALM
+
+def isClientLesta():
+    return CURRENT_REALM == 'RU'
 
 def overrideIn(cls, condition=lambda : True):
 
@@ -23,7 +31,7 @@ def overrideIn(cls, condition=lambda : True):
     return _overrideMethod
 
 
-@overrideIn(ArcadeCamera)
+@overrideIn(ArcadeCamera, condition=isClientLesta)
 def enable(func, self, preferredPos = None, closesDist = False, postmortemParams = None, turretYaw = None, gunPitch = None, camTransitionParams = None, initialVehicleMatrix = None, arcadeState = None):
     replayCtrl = BattleReplay.g_replayCtrl
     if replayCtrl.isRecording:
@@ -37,11 +45,12 @@ def enable(func, self, preferredPos = None, closesDist = False, postmortemParams
     elif initialVehicleMatrix is None:
         initialVehicleMatrix = player.getOwnVehicleMatrix(Math.Matrix(self.vehicleMProv)) if vehicle is None else vehicle.matrix
     vehicleMProv = initialVehicleMatrix
-    if not self._ArcadeCamera__isInArcadeZoomState() or arcadeState is not None:
-        if arcadeState is None:
-            state = None
-            newCameraDistance = self._cfg['distRange'].max
-        else:
+    isPreCommanderCam = self._ArcadeCamera__compareCurrStateSettingsKey(GAME.PRE_COMMANDER_CAM)
+    isCommanderCam = self._ArcadeCamera__compareCurrStateSettingsKey(GAME.COMMANDER_CAM)
+    if isPreCommanderCam or isCommanderCam or arcadeState is not None:
+        state = None
+        newCameraDistance = self._cfg['distRange'].max
+        if arcadeState is not None:
             self._ArcadeCamera__zoomStateSwitcher.switchToState(arcadeState.zoomSwitcherState)
             state = self._ArcadeCamera__zoomStateSwitcher.getCurrentState()
             newCameraDistance = arcadeState.camDist
