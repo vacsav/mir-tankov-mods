@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.0.6
+
+- Added portal mode
+
 ### 1.0.4
 
 - 1.38.0.0
