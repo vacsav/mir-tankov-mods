@@ -504,7 +504,7 @@ You can customize the reticle in the settings, as it was done on the vanilla cli
   </tr>
 </table>
 
-### Controls (penetration)
+### Controls (penetration) | In Sets 1,2; color 1 to 1 out of 9 colors.
 
 <table align="center">
   <tr>
@@ -600,26 +600,6 @@ You can customize the reticle in the settings, as it was done on the vanilla cli
     <td align="center"><img src="./assets/images/Controls/25.png" width="32"/></td>
     <td align="center"><img src="./assets/images/Controls/26.png" width="32"/></td>
 	<td align="center"><img src="./assets/images/Controls/27.png" width="32"/></td>
-  </tr>
-  <tr>
-    <td align="center">Crosshair</td>
-    <td align="center">Crosshair</td>
-    <td align="center">Crosshair</td>
-    <td align="center">Crosshair</td>
-	<td align="center">Crosshair</td>
-  </tr>
-</table>
-
-<table align="center">
-  <tr>
-    <td colspan="15" align="center"><strong>Set 6</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="./assets/images/Controls/1.png" width="32"/></td>
-    <td align="center"><img src="./assets/images/Controls/2.png" width="32"/></td>
-    <td align="center"><img src="./assets/images/Controls/3.png" width="32"/></td>
-    <td align="center"><img src="./assets/images/Controls/4.png" width="32"/></td>
-	<td align="center"><img src="./assets/images/Controls/5.png" width="32"/></td>
   </tr>
   <tr>
     <td align="center">Crosshair</td>
@@ -1130,7 +1110,7 @@ You can customize the reticle in the settings, as it was done on the vanilla cli
   </tr>
 </table>
 
-### Контроллеры (Бронепробитие)
+### Контроллеры (Бронепробитие) | В Наборах 1,2; цвет 1 к 1 из 9 цветов.
 
 <table align="center">
   <tr>
@@ -1226,26 +1206,6 @@ You can customize the reticle in the settings, as it was done on the vanilla cli
     <td align="center"><img src="./assets/images/Controls/25.png" width="32"/></td>
     <td align="center"><img src="./assets/images/Controls/26.png" width="32"/></td>
 	<td align="center"><img src="./assets/images/Controls/27.png" width="32"/></td>
-  </tr>
-  <tr>
-    <td align="center">Перекрестие</td>
-    <td align="center">Перекрестие</td>
-    <td align="center">Перекрестие</td>
-    <td align="center">Перекрестие</td>
-	<td align="center">Перекрестие</td>
-  </tr>
-</table>
-
-<table align="center">
-  <tr>
-    <td colspan="15" align="center"><strong>Набор 6</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="./assets/images/Controls/1.png" width="32"/></td>
-    <td align="center"><img src="./assets/images/Controls/2.png" width="32"/></td>
-    <td align="center"><img src="./assets/images/Controls/3.png" width="32"/></td>
-    <td align="center"><img src="./assets/images/Controls/4.png" width="32"/></td>
-	<td align="center"><img src="./assets/images/Controls/5.png" width="32"/></td>
   </tr>
   <tr>
     <td align="center">Перекрестие</td>
