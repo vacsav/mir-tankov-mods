@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### 14
+
+- me.kurzdor.permanentlydestroyed_1.2.7.mtmod
+- champi.littlehelpercollection_1.69.011.mtmod
+
 ### 13
 
 - 1.38.0.0
