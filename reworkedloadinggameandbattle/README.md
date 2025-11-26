@@ -15,7 +15,7 @@ Recommendations:
 - Set in settings - display text when entering battle
 
 <figure style="text-align: center;">
-  <figcaption>Game launch: 1 of 65</figcaption>
+  <figcaption>Game launch: 1 of 86</figcaption>
   <img src="./assets/images/1ofgame.png" alt="Preview"/>
 </figure>
 
@@ -35,7 +35,7 @@ Recommendations:
 - Установить в настройках - отображать текст при входе в бой
 
 <figure style="text-align: center;">
-  <figcaption>Запуск игры: 1 из 65</figcaption>
+  <figcaption>Запуск игры: 1 из 86</figcaption>
   <img src="./assets/images/1ofgame.png" alt="Preview"/>
 </figure>
 <figure style="text-align: center;">
