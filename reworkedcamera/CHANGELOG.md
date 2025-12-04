@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 1.3.2
+
+- Fixed a error in the logic
+
 ### 1.3.1
 
 - 1.39.0.0
