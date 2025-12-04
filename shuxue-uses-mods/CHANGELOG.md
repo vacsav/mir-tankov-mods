@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### 16
+
+- PMOD: detection indicator disabled
+- shuxue.[R]Camera_x8_1.3.2.mtmod
+- tv.protanki.saveshot_2.6.05.mtmod
+
 ### 15
 
 - 1.39.0.0
