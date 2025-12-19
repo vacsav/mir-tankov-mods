@@ -1,7 +1,13 @@
 # CHANGELOG
 
+### 1.3.3
+
+- 1.39.0.0
+- Code refactoring
+
 ### 1.3.2
 
+- 1.39.0.0
 - Fixed a error in the logic
 
 ### 1.3.1
