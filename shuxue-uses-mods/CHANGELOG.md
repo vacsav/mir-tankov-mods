@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### Version 18
+
+- Fix for the assembly hall
+
 ### Version 17
 
 - wotinspector.com.armor_inspector.4.0.2.mtmod
