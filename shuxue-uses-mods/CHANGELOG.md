@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### Version 19
+
+- Added pruszko.responsive_reticle_1.0.1.mtmod
+
 ### Version 18
 
 - Fix for the assembly hall
