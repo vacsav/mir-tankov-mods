@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### Version 20
+
+- Added mod_rangeFinderFixation.mtmod
+- shuxue.[R]Reticle-Aqua-Ext_1.0.9.mtmod
+
 ### Version 19
 
 - Added pruszko.responsive_reticle_1.0.1.mtmod
