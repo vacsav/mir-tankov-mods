@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### 1.0.9
+
+- Changed height: distance, fly time
+- 1.39.0.0
+
 ### 1.0.7
 
 - 1.39.0.0
