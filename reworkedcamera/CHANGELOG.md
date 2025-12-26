@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### 1.4.0
+
+- 1.39.0.0
+- Changed the minLODBiasForTanks
+
 ### 1.3.3
 
 - 1.39.0.0

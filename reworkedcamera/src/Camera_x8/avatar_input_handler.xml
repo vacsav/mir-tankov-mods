@@ -120,7 +120,7 @@
           <transitionEasingIn>	3	</transitionEasingIn>
           <transitionDurationOut>	1	</transitionDurationOut>
           <transitionEasingOut>	3	</transitionEasingOut>
-          <minLODBiasForTanks>	1.6	</minLODBiasForTanks>
+          <minLODBiasForTanks>	3.2	</minLODBiasForTanks>
           <settingsKey>	commanderCam	</settingsKey>
         </state>
       </additionalZoomStates>
@@ -269,11 +269,11 @@
           <heightAboveBaseOnMinMaxDist>	80 180	</heightAboveBaseOnMinMaxDist>
           <angleRangeOnMinDist>	38.55 90	</angleRangeOnMinDist>
           <angleRangeOnMaxDist>	9.65 85	</angleRangeOnMaxDist>
-          <transitionDurationIn>	1	</transitionDurationIn>
-          <transitionEasingIn>	3	</transitionEasingIn>
+          <transitionDurationIn>	0.01	</transitionDurationIn>
+          <transitionEasingIn>	2	</transitionEasingIn>
           <transitionDurationOut>	1	</transitionDurationOut>
           <transitionEasingOut>	3	</transitionEasingOut>
-          <minLODBiasForTanks>	1.6	</minLODBiasForTanks>
+          <minLODBiasForTanks>	3.2	</minLODBiasForTanks>
           <settingsKey>	commanderCam	</settingsKey>
         </state>
       </additionalZoomStates>
@@ -776,16 +776,6 @@
       <keyBindToVehicle>	KEY_B	</keyBindToVehicle>
     </camera>
   </videoMode>
-  <atgmMode>
-    <defaultOffset>	0.0 0.0	</defaultOffset>
-    <camera>
-      <sensitivity>	0.15	</sensitivity>
-      <angularVelocity>	1.0	</angularVelocity>
-      <angularVelocityAcceleration>	0.8	</angularVelocityAcceleration>
-      <linearFriction>	2.0	</linearFriction>
-      <rotationFriction>	1.0	</rotationFriction>
-    </camera>
-  </atgmMode>
   <epicVideoMode>
     <defaultOffset>	0.0 0.0	</defaultOffset>
     <camera>
