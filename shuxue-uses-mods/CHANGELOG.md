@@ -1,20 +1,30 @@
 # CHANGELOG
 
+### Version 21
+
+- 1.39.0.0
+- Removed mods: protanki
+- shuxue.[R]Camera_x8_1.4.0.mtmod
+
 ### Version 20
 
+- 1.39.0.0
 - Added mod_rangeFinderFixation.mtmod
 - shuxue.[R]Reticle-Aqua-Ext_1.0.9.mtmod
 
 ### Version 19
 
+- 1.39.0.0
 - Added pruszko.responsive_reticle_1.0.1.mtmod
 
 ### Version 18
 
+- 1.39.0.0
 - Fix for the assembly hall
 
 ### Version 17
 
+- 1.39.0.0
 - wotinspector.com.armor_inspector.4.0.2.mtmod
 - wotinspector.com.heatmaps.0.9.0.mtmod
 - shuxue.[R]Camera_x8_1.3.3.mtmod
@@ -22,6 +32,7 @@
 
 ### Version 16
 
+- 1.39.0.0
 - PMOD: detection indicator disabled
 - shuxue.[R]Camera_x8_1.3.2.mtmod
 - tv.protanki.saveshot_2.6.05.mtmod
