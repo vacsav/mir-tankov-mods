@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### Version 22
+
+- 1.39.0.0
+- pruszko.responsive_reticle_1.0.3.mtmod
+
 ### Version 21
 
 - 1.39.0.0
