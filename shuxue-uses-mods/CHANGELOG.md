@@ -1,5 +1,12 @@
 # CHANGELOG
 
+### Version 23
+
+- 1.39.0.0
+- AimPro-[FL]_1.2.0.mtmod
+- pruszko.dispersion_reticle_3.1.2.mtmod
+- izeberg.modssettingsapi_1.7.0.mtmod
+
 ### Version 22
 
 - 1.39.0.0
