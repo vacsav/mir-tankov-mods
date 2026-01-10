@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### 1.5.0
+
+- 1.39.0.0
+- Added display of x1 value
+
 ### 1.4.0
 
 - 1.39.0.0
