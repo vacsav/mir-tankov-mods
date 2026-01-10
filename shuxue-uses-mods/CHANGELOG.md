@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### Version 26
+
+- 1.39.0.0
+- shuxue.[R]Camera-x8_1.6.0.mtmod
+- wotinspector.com.armor_inspector.4.0.4.mtmod
+
 ### Version 25
 
 - 1.39.0.0
