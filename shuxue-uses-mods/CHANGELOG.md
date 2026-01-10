@@ -1,5 +1,12 @@
 # CHANGELOG
 
+### Version 24
+
+- 1.39.0.0
+- shuxue.[R]Camera_x8_1.5.0.mtmod
+- wotinspector.com.battle_assistant.2.6.1.mtmod
+
+
 ### Version 23
 
 - 1.39.0.0
