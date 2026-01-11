@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### Version 27
+
+- 1.39.0.0
+- Removed mods: ekspoint
+- Added mods: GunTimer.mtmod, wg_crew_return.mtmod(Auto-return of the crew, holding L.ALT when switching does not return the crew)
+
 ### Version 26
 
 - 1.39.0.0
