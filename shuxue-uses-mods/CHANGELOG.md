@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### Version 28
+
+- 1.39.0.0
+- mod_GunTimer_1.1.0.mtmod
+
 ### Version 27
 
 - 1.39.0.0
