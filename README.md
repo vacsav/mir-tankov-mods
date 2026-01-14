@@ -26,6 +26,7 @@
 - [Reworked Minimap](./reworkedminimap/): Changed the color of coordinates to white
 - [Reworked Pre Battle Timer](./reworkedprebattletimer/): Removes the shadow on the countdown at the start of battle
 - [Reworked Reticle](./reworkedreticle/): 9 colors, 2 variants: one for the advanced damage indicator and one for the standard damage indicator
+- [Reworked Sniper Scroll](./reworkedsniperscroll/): Allows to change the number of mouse wheel steps in sniperMode
 - [shuxue uses mods](./shuxue-uses-mods/)
 
 ## RU
@@ -50,4 +51,5 @@
 - [Reworked Minimap](./reworkedminimap/): Изменен цвет координат на белый
 - [Reworked Pre Battle Timer](./reworkedprebattletimer/): Убрана тень на обратном отсчете в начале боя
 - [Reworked Reticle](./reworkedreticle/): 9 цветов, 2 варианта: один для расширенного индикатора урона и один для стандартного индикатора урона
+- [Reworked Sniper Scroll](./reworkedsniperscroll/): Позволяет изменить количество отсечек колесика мыши в режиме sniperMode
 - [shuxue uses mods](./shuxue-uses-mods/)
