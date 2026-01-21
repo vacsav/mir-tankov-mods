@@ -1,5 +1,14 @@
 # CHANGELOG
 
+### Version 29
+
+- 1.39.0.0
+- shuxue.draug.GunTimer_1.2.0.mtmod
+- shuxue.pruszko.AimPro-[FL]_1.4.1.mtmod
+- champi.littlehelpercollection_1.69.015.mtmod
+- panikaxa.сontrol_settings_presets_1.1.0.mtmod
+- pruszko.dispersion_reticle_3.1.3.mtmod
+
 ### Version 28
 
 - 1.39.0.0
