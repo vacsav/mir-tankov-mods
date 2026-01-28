@@ -3,6 +3,9 @@
 ### Version 30
 
 - 1.40.0.0
+- pmod: cameraOptions.json, onStartDeadDistance.json, reducedArmor.json; now is false
+- hangar has been removed
+- All mods have been updated
 
 ### Version 29
 
