@@ -8,11 +8,11 @@
 
 **Not compatible with [Reworked Camera](../reworkedcamera/) mod**
 
-Changed distance of exit from sniperMode when entering sniperMode from commanderCam via LShift
+Changed distance of exit from sniperMode when entering sniperMode from Pre/CommanderCam via LShift
 
 
 ## RU
 
 **Не совместим с модом [Reworked Camera](../reworkedcamera/)**
 
-Изменено расстояние выхода из sniperMode при входе в sniperMode из CommanderCam через LShift
+Изменено расстояние выхода из sniperMode при входе в sniperMode из Pre/CommanderCam через LShift
