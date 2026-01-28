@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### Version 30
+
+- 1.40.0.0
+
 ### Version 29
 
 - 1.39.0.0
