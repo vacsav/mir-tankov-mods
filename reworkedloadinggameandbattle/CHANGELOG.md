@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### 1.2.1
+
+- 1.40.0.0
+- Replacing .bnk with code
+
 ### 1.2.0
 
 - 1.40.0.0
