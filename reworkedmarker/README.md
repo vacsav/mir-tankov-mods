@@ -6,6 +6,8 @@
 
 ## EN
 
+**Not compatible with XVM mod**
+
 Removed the transparency in "distance to vehicle", increased the HP font
 
 <p align="center">
@@ -13,6 +15,8 @@ Removed the transparency in "distance to vehicle", increased the HP font
 </p>
 
 ## RU
+
+**Не совместим с модом XVM**
 
 Убрана прозрачность в "расстояние до техники", увеличен шрифт "HP"
 
