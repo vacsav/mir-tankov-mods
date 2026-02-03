@@ -28,7 +28,7 @@ There are 4 variants in the archive, they differ only in the return values for *
 This mod should be compatible with almost everything:
 
 - For mod **PMOD** by default
-  - if you use it **PMOD** together with **Reworked Camera**, **PMOD** will have priority in the settings. For **Reworked Camera** to work as intended, you must turn off the module: `zoomDistance.json`.
+  - if you use it **PMOD** together with **Reworked Camera**, **PMOD** will have priority in the settings. For **Reworked Camera** to work as intended, you must turn off the module: `zoomDistance.json`.  
   **or**  
   - If you install **PMOD** from modpacks, there may be other modules included, for example: `zoomX.json`, `scrollSensitivity.json` or other modules.
 
