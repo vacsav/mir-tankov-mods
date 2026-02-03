@@ -1,15 +1,28 @@
 # CHANGELOG
 
+### Version 31
+
+- 1.40.0.0
+Changed:
+- shuxue.[R]Marker_1.0.9.mtmod for XVM; pmod: battleGui.json now is false
+Added:
+- XVM with configs, activation is not required
+Updated:
+- shuxue.[R]LoadingGameAndBattle_1.2.1.mtmod
+
 ### Version 30
 
 - 1.40.0.0
+Changed:
 - pmod: cameraOptions.json, onStartDeadDistance.json, reducedArmor.json; now is false
 - hangar has been removed
+Updated:
 - All mods have been updated
 
 ### Version 29
 
 - 1.39.0.0
+Updated:
 - shuxue.draug.GunTimer_1.2.0.mtmod
 - shuxue.pruszko.AimPro-[FL]_1.4.1.mtmod
 - champi.littlehelpercollection_1.69.015.mtmod
@@ -19,28 +32,34 @@
 ### Version 28
 
 - 1.39.0.0
+Updated:
 - mod_GunTimer_1.1.0.mtmod
 
 ### Version 27
 
 - 1.39.0.0
+Changed:
 - Removed mods: ekspoint
-- Added mods: GunTimer.mtmod, wg_crew_return.mtmod(Auto-return of the crew, holding L.ALT when switching does not return the crew)
+Added:
+- GunTimer.mtmod, wg_crew_return.mtmod(Auto-return of the crew, holding L.ALT when switching does not return the crew)
 
 ### Version 26
 
 - 1.39.0.0
+Updated:
 - shuxue.[R]Camera-x8_1.6.0.mtmod
 - wotinspector.com.armor_inspector.4.0.4.mtmod
 
 ### Version 25
 
 - 1.39.0.0
+Updated:
 - pruszko.shuxue.AimPro-[FL]_1.3.0.mtmod
 
 ### Version 24
 
 - 1.39.0.0
+Updated:
 - shuxue.[R]Camera_x8_1.5.0.mtmod
 - wotinspector.com.battle_assistant.2.6.1.mtmod
 
@@ -48,6 +67,7 @@
 ### Version 23
 
 - 1.39.0.0
+Updated:
 - pruszko.shuxue.AimPro-[FL]_1.2.0.mtmod
 - pruszko.dispersion_reticle_3.1.2.mtmod
 - izeberg.modssettingsapi_1.7.0.mtmod
@@ -55,12 +75,15 @@
 ### Version 22
 
 - 1.39.0.0
+Updated:
 - pruszko.responsive_reticle_1.0.3.mtmod
 
 ### Version 21
 
 - 1.39.0.0
+Changed:
 - Removed mods: protanki
+Updated:
 - shuxue.[R]Camera_x8_1.4.0.mtmod
 
 ### Version 20
@@ -72,16 +95,19 @@
 ### Version 19
 
 - 1.39.0.0
-- Added pruszko.responsive_reticle_1.0.1.mtmod
+Added:
+- pruszko.responsive_reticle_1.0.1.mtmod
 
 ### Version 18
 
 - 1.39.0.0
+Changed:
 - Fix for the assembly hall
 
 ### Version 17
 
 - 1.39.0.0
+Updated:
 - wotinspector.com.armor_inspector.4.0.2.mtmod
 - wotinspector.com.heatmaps.0.9.0.mtmod
 - shuxue.[R]Camera_x8_1.3.3.mtmod
@@ -90,7 +116,9 @@
 ### Version 16
 
 - 1.39.0.0
+Changed:
 - PMOD: detection indicator disabled
+Updated:
 - shuxue.[R]Camera_x8_1.3.2.mtmod
 - tv.protanki.saveshot_2.6.05.mtmod
 
@@ -100,6 +128,7 @@
 
 ### Version 14
 
+Updated:
 - me.kurzdor.permanentlydestroyed_1.2.7.mtmod
 - champi.littlehelpercollection_1.69.011.mtmod
 
@@ -109,6 +138,7 @@
 
 ### Version 8
 
+Updated:
 - All mods have been updated
 
 ### Version 5
@@ -129,6 +159,7 @@ Updated:
 
 ### Version 2
 
+Updated:
 - All mods have been updated
 
 ### Version 1
