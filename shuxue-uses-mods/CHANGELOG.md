@@ -1,5 +1,16 @@
 # CHANGELOG
 
+### Version 32
+
+- 1.40.0.0
+Changed:
+- Removed mods: - wotinspector.com.heatmaps.0.9.2.mtmod
+- XVM: Spotted enabled
+Updated:
+- me.poliroid.frames_limiter_4.0.3.mtmod
+- champi.steelhunterhelper_0.99.014.mtmod
+- wotinspector.com.armor_inspector.4.0.6.mtmod
+
 ### Version 31
 
 - 1.40.0.0
