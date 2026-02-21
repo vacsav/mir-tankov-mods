@@ -1,5 +1,12 @@
 # CHANGELOG
 
+### Version 33
+
+- 1.40.0.0
+Updated:
+- com.modxvm.xvm_13.0.0.0072.mtmod
+- wotinspector.com.armor_inspector.4.0.7.mtmod
+
 ### Version 32
 
 - 1.40.0.0
