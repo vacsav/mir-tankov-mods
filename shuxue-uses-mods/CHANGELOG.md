@@ -1,5 +1,13 @@
 # CHANGELOG
 
+### Version 34
+
+- 1.40.0.0
+Changed:
+- Removed mods: mod_rangeFinderFixation.mtmod
+Updated:
+- shuxue.draug.GunTimer_1.3.0.mtmod
+
 ### Version 33
 
 - 1.40.0.0
@@ -11,7 +19,7 @@ Updated:
 
 - 1.40.0.0
 Changed:
-- Removed mods: - wotinspector.com.heatmaps.0.9.2.mtmod
+- Removed mods: wotinspector.com.heatmaps.0.9.2.mtmod
 - XVM: Spotted enabled
 Updated:
 - me.poliroid.frames_limiter_4.0.3.mtmod
