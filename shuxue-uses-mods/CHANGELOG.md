@@ -156,6 +156,8 @@
 ### Version 15
 
 - 1.39.0.0
+- Updated:
+  - All mods have been updated
 
 ### Version 14
 
@@ -166,6 +168,8 @@
 ### Version 13
 
 - 1.38.0.0
+- Updated:
+  - All mods have been updated
 
 ### Version 8
 
