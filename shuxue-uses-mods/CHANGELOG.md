@@ -1,5 +1,16 @@
 # CHANGELOG
 
+### Version 35
+
+- 1.40.0.0
+- Changed:
+  - XVM: playersPanel.xc, statisticForm.xc, battleLoading.xc, battleLoadingTips.xc, battle.xc
+- Updated:  
+  - champi.littlehelpercollection_1.69.017.mtmod
+  - wotinspector.com.armor_inspector.4.1.1.mtmod
+  - com.modxvm.xvm_13.0.0.0079.mtmod
+  - me.poliroid.pmod_1.81.01.mtmod
+
 ### Version 34
 
 - 1.40.0.0
