@@ -1,5 +1,12 @@
 # CHANGELOG
 
+### Version 37
+
+- 1.41.0.0
+- Updated:  
+  - wotinspector.com.armor_inspector.4.1.2.mtmod
+  - tweaker
+
 ### Version 36
 
 - 1.41.0.0
