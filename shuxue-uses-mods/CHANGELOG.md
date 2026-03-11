@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### Version 36
+
+- 1.41.0.0
+
 ### Version 35
 
 - 1.40.0.0
