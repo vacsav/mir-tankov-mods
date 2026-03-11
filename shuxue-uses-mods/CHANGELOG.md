@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### Version 38
+
+- 1.41.0.0
+- Updated:  
+  - shuxue.draug.GunTimer_1.3.1.mtmod
+
 ### Version 37
 
 - 1.41.0.0
