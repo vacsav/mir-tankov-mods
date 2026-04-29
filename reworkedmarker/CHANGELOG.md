@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### 1.0.12
+
+- Added:
+  - Historical battles
+
 ### 1.0.11
 
 - 1.42.0.0
