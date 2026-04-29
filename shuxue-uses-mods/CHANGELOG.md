@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### Version 40
+
+- 1.42.0.0
+
 ### Version 39
 
 - 1.41.0.0
