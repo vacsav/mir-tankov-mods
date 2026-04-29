@@ -1,5 +1,13 @@
 # CHANGELOG
 
+### Version 41
+
+- 1.42.0.0
+- Updated:  
+  - com.modxvm.xvm_13.1.0.0022.mtmod
+  - tweaker
+  - shuxue.[R]Marker_1.0.12.mtmod
+
 ### Version 40
 
 - 1.42.0.0
