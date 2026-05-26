@@ -1,5 +1,14 @@
 # CHANGELOG
 
+### Version 42
+
+- 1.42.0.0
+- Updated:  
+  - com.modxvm.xvm_13.1.0.0024.mtmod
+  - net.openwg.common_2.2.0.mtmod
+  - goofy67.LimpidStickers_2.16.mtmod
+  - shuxue.draug.GunTimer_1.3.2.mtmod
+
 ### Version 41
 
 - 1.42.0.0
