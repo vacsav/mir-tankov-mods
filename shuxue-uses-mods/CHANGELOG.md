@@ -1,5 +1,23 @@
 # CHANGELOG
 
+### Version 43
+
+- 1.43.0.0
+- Updated:  
+  - champi.littlehelpercollection_1.69.020.mtmod
+  - champi.settingsgui_1.67.mtmod
+  - champi.steelhunterhelper_0.99.017.mtmod
+  - com.modxvm.xvm_13.1.0.0029_edit.mtmod
+  - goofy67.LimpidStickers_2.17.mtmod
+  - Hawg_weather.mtmod
+  - me.poliroid.pmod_1.81.05.mtmod
+  - pruszko.dispersion_reticle_3.1.4.mtmod
+  - shuxue.[R]DamageIndicator_1.0.9.mtmod
+  - shuxue.[R]Marker_1.0.13.mtmod
+  - shuxue.[R]Minimap_1.0.9.mtmod
+  - shuxue.[R]Reticle-Aqua-Ext_1.0.13.mtmod
+  - tweaker
+
 ### Version 42
 
 - 1.42.0.0
