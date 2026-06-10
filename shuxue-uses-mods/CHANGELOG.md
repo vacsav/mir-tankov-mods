@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### Version 44
+
+- 1.43.0.0
+- Updated:  
+  - com.modxvm.xvm_13.1.0.0030_edit.mtmod
+
 ### Version 43
 
 - 1.43.0.0
