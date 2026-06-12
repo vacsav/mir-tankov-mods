@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### Version 45
+
+- 1.43.0.0
+- Updated:  
+  - pruszko.dispersion_reticle_3.1.5.mtmod
+
 ### Version 44
 
 - 1.43.0.0
