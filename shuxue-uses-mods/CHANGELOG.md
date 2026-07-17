@@ -1,5 +1,16 @@
 # CHANGELOG
 
+### Version 47
+
+- 1.43.0.0
+- Updated:  
+  - shuxue.pruszko.AimPro-[FL]_1.5.0.mtmod
+  - shuxue.[R]Camera-x8_1.8.0.mtmod
+- Added:
+  - pruszko.responsive_reticle_1.0.4.mtmod
+- Changed:
+  - pmod: reducedArmor.json now is true
+
 ### Version 46
 
 - 1.43.0.0
