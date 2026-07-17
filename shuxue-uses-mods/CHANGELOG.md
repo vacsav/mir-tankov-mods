@@ -1,5 +1,20 @@
 # CHANGELOG
 
+### Version 46
+
+- 1.43.0.0
+- Updated:  
+  - pruszko.dispersion_reticle_3.1.7.mtmod
+  - champi.littlehelpercollection_1.69.022.mtmod
+  - champi.settingsgui_1.73.mtmod
+  - me.poliroid.pmod_1.81.08.mtmod
+  - shuxue.pruszko.AimPro-[FL]_1.5.0.mtmod
+  - com.modxvm.xvm_13.1.0.0032_edit.mtmod
+- Added:
+  - aslain.modssettingsapi_1.6.2.mtmod
+  - ANIALLATOR.Extended_Sensitivity_Adjustment_1.0.0.mtmod
+  - net.openwg.gameface_1.1.6.mtmod
+
 ### Version 45
 
 - 1.43.0.0
