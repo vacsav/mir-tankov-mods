@@ -8,7 +8,7 @@
   - champi.littlehelpercollection_1.69.022.mtmod
   - champi.settingsgui_1.73.mtmod
   - me.poliroid.pmod_1.81.08.mtmod
-  - shuxue.pruszko.AimPro-[FL]_1.5.0.mtmod
+  - shuxue.pruszko.AimPro-[FL]_1.4.2.mtmod
   - com.modxvm.xvm_13.1.0.0032_edit.mtmod
 - Added:
   - aslain.modssettingsapi_1.6.2.mtmod
