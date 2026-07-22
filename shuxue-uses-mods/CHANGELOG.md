@@ -1,5 +1,12 @@
 # CHANGELOG
 
+### Version 48
+
+- Updated:  
+  - 1.44.0.0
+- Removed:
+  - net.openwg.fix.crosshairs_1.0.2.mtmod
+
 ### Version 47
 
 - 1.43.0.0
@@ -115,7 +122,7 @@
 ### Version 34
 
 - 1.40.0.0
-- Removed mods:
+- Removed:
   - mod_rangeFinderFixation.mtmod  
 - Updated:  
   - shuxue.draug.GunTimer_1.3.0.mtmod
@@ -130,7 +137,7 @@
 ### Version 32
 
 - 1.40.0.0
-- Removed mods:
+- Removed:
   - wotinspector.com.heatmaps.0.9.2.mtmod
 - Changed:
   - XVM: Spotted enabled
@@ -178,7 +185,7 @@
 ### Version 27
 
 - 1.39.0.0
-- Removed mods:
+- Removed:
   - ekspoint
 - Added:
   - GunTimer.mtmod
@@ -222,7 +229,7 @@
 ### Version 21
 
 - 1.39.0.0
-- Removed mods:
+- Removed:
   - protanki
 - Updated:
   - shuxue.[R]Camera_x8_1.4.0.mtmod
