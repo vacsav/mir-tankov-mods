@@ -1,5 +1,13 @@
 # CHANGELOG
 
+### Version 49
+
+- 1.44.0.0
+- Updated:  
+  - pruszko.dispersion_reticle_3.1.8.mtmod
+  - pruszko.responsive_reticle_1.0.5.mtmod
+  - me.poliroid.pmod_1.81.11.mtmod
+
 ### Version 48
 
 - Updated:  
