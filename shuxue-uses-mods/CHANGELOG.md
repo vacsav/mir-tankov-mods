@@ -5,8 +5,10 @@
 - 1.44.0.0
 - Updated:  
   - pruszko.dispersion_reticle_3.1.8.mtmod
-  - pruszko.responsive_reticle_1.0.5.mtmod
+  - pruszko.responsive_reticle_1.0.6.mtmod
   - me.poliroid.pmod_1.81.11.mtmod
+  - com.modxvm.xvm_13.1.0.0052.mtmod
+  - net.openwg.common_2.5.1.0000.mtmod
 
 ### Version 48
 
@@ -35,7 +37,7 @@
   - champi.settingsgui_1.73.mtmod
   - me.poliroid.pmod_1.81.08.mtmod
   - shuxue.pruszko.AimPro-[FL]_1.4.2.mtmod
-  - com.modxvm.xvm_13.1.0.0032_edit.mtmod
+  - com.modxvm.xvm_13.1.0.0032.mtmod
 - Added:
   - aslain.modssettingsapi_1.6.2.mtmod
   - ANIALLATOR.Extended_Sensitivity_Adjustment_1.0.0.mtmod
@@ -51,7 +53,7 @@
 
 - 1.43.0.0
 - Updated:  
-  - com.modxvm.xvm_13.1.0.0030_edit.mtmod
+  - com.modxvm.xvm_13.1.0.0030.mtmod
 
 ### Version 43
 
@@ -60,7 +62,7 @@
   - champi.littlehelpercollection_1.69.020.mtmod
   - champi.settingsgui_1.67.mtmod
   - champi.steelhunterhelper_0.99.017.mtmod
-  - com.modxvm.xvm_13.1.0.0029_edit.mtmod
+  - com.modxvm.xvm_13.1.0.0029.mtmod
   - goofy67.LimpidStickers_2.17.mtmod
   - Hawg_weather.mtmod
   - me.poliroid.pmod_1.81.05.mtmod
@@ -96,7 +98,7 @@
 
 - 1.41.0.0
 - Updated:  
-  - com.modxvm.xvm_13.1.0.0015_edit.mtmod
+  - com.modxvm.xvm_13.1.0.0015.mtmod
   - wotinspector.com.armor_inspector.4.1.3.mtmod
 
 ### Version 38
