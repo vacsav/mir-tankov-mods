@@ -1,5 +1,18 @@
 # CHANGELOG
 
+### Version 50
+
+- 1.44.0.0
+- Updated:  
+  - champi.settingsgui_1.74.mtmod
+  - aslain.modssettingsapi_1.6.4.mtmod
+  - shuxue.draug.GunTimer_1.3.3.mtmod
+  - me.poliroid.pmod_1.81.12.mtmod
+  - com.modxvm.xvm_13.1.0.0057.mtmod
+  - net.openwg.common_2.5.2.0000.mtmod
+  - wotinspector.com.armor_inspector.4.3.0.mtmod
+  - shuxue.[R]LoadingGameAndBattle_1.2.3.mtmod
+
 ### Version 49
 
 - 1.44.0.0
