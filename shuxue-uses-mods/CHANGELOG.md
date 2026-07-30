@@ -12,6 +12,7 @@
   - net.openwg.common_2.5.2.0000.mtmod
   - wotinspector.com.armor_inspector.4.3.0.mtmod
   - shuxue.[R]LoadingGameAndBattle_1.2.3.mtmod
+  - pruszko.responsive_reticle_1.0.8.mtmod
 
 ### Version 49
 
