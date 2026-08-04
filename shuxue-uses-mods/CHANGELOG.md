@@ -1,5 +1,17 @@
 # CHANGELOG
 
+### Version 51
+
+- 1.44.0.0
+- Updated:  
+  - com.modxvm.xvm_13.1.0.0058.mtmod
+  - wotinspector.com.armor_inspector.4.3.1.mtmod
+  - pruszko.responsive_reticle_1.0.9.mtmod
+  - pruszko.dispersion_reticle_3.1.9.mtmod
+  - champi.settingsgui_1.75.mtmod
+  - champi.littlehelpercollection_1.69.023.mtmod
+  - aslain.modssettingsapi_1.7.0.mtmod
+
 ### Version 50
 
 - 1.44.0.0
