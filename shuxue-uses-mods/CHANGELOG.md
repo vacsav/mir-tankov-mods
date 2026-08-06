@@ -1,5 +1,12 @@
 # CHANGELOG
 
+### Version 52
+
+- 1.44.0.0
+- Updated:  
+  - pruszko.responsive_reticle_1.0.10.mtmod
+  - aslain.modssettingsapi_1.7.1.mtmod
+
 ### Version 51
 
 - 1.44.0.0
