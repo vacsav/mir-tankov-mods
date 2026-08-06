@@ -1,13 +1,12 @@
-import Math, BigWorld, BattleReplay, constants, logging
+import Math, BigWorld, BattleReplay, constants
 from Math import Matrix
 from realm import CURRENT_REALM
 from AvatarInputHandler.DynamicCameras.ArcadeCamera import ArcadeCamera
 from AvatarInputHandler.DynamicCameras.SniperCamera import SniperCamera
+from account_helpers.settings_core.options import SniperZoomSetting
 from gui.Scaleform.daapi.view.battle.shared.crosshair.container import CrosshairPanelContainer
 from gui.Scaleform.locale.INGAME_GUI import INGAME_GUI
-from gui.battle_control import event_dispatcher
 from helpers import i18n
-_logger = logging.getLogger(__name__)
 
 
 def isClientLesta():
@@ -18,7 +17,7 @@ def isClientWG():
     return not isClientLesta()
 
 
-def overrideIn(cls, condition=lambda: True):
+def overrideIn(cls, condition = lambda: True):
 
     def _overrideMethod(func):
         if not condition():
@@ -107,40 +106,16 @@ def enable(func, self, preferredPos = None, closesDist = False, postmortemParams
 
 
 @overrideIn(SniperCamera)
-def enable(func, self, targetPos, saveZoom):
-    self._SniperCamera__prevTime = BigWorld.time()
-    player = BigWorld.player()
-    if SniperCamera._SNIPER_ZOOM_LEVEL == -1:
-        if saveZoom:
-            self._SniperCamera__zoom = self._cfg['zoom']
-        else:
-            self._cfg['zoom'] = self._SniperCamera__zoom = self._cfg['zooms'][0]
-    elif len(self._cfg['zooms']) > SniperCamera._SNIPER_ZOOM_LEVEL + 1:
-        self._SniperCamera__zoom = self._cfg['zooms'][SniperCamera._SNIPER_ZOOM_LEVEL + 1]
-    else:
-        _logger.warning('zooms should always have enough length to use _SNIPER_ZOOM_LEVEL, using default now')
-        self._cfg['zoom'] = self._SniperCamera__zoom = self._cfg['zooms'][0]
-    self._SniperCamera__applyZoom(self._SniperCamera__zoom)
-    self._SniperCamera__setupCamera(targetPos)
-    vehicle = player.getVehicleAttached()
-    if self._SniperCamera__waitVehicleCallbackId is not None:
-        BigWorld.cancelCallback(self._SniperCamera__waitVehicleCallbackId)
-    if vehicle is None:
-        self._SniperCamera__waitVehicleCallbackId = BigWorld.callback(0.1, self._SniperCamera__waitVehicle)
-    else:
-        self._SniperCamera__showVehicle(False)
-    BigWorld.camera(self._SniperCamera__cam)
-    if self._SniperCamera__cameraUpdate(False) >= 0.0:
-        self.delayCallback(0.0, self._SniperCamera__cameraUpdate)
-    return
-
-
-@overrideIn(SniperCamera)
 def __getZooms(func, self):
     zooms = self._cfg['zooms']
     if not self._cfg['increasedZoom']:
         zooms = zooms[:4]
     return zooms
+
+
+@overrideIn(SniperZoomSetting)
+def setSystemValue(func, self, value):
+    SniperCamera.setSniperZoomSettings(-1 if value == 0 else value)
 
 
 @overrideIn(CrosshairPanelContainer, condition=isClientLesta)
