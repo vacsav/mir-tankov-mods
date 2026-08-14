@@ -1,5 +1,17 @@
 # CHANGELOG
 
+### Version 53
+
+- 1.44.0.0
+- Updated:  
+  - wotinspector.com.armor_inspector.4.3.2.mtmod
+  - com.modxvm.xvm_13.1.0.0062.mtmod
+  - net.openwg.common_2.6.1.0000.mtmod
+- Added:
+  - shuxue.[R]DefaultQueueTraining_1.0.0.mtmod
+  - gravity.ebr_cruise.1.0.mtmod
+  - gravity.skirmish_tank_sync.1.2.mtmod
+
 ### Version 52
 
 - 1.44.0.0
