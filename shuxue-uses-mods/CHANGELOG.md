@@ -1,5 +1,17 @@
 # CHANGELOG
 
+### Version 54
+
+- 1.44.0.0
+- Updated:  
+  - com.modxvm.xvm_13.1.0.0066_edit.mtmod
+  - wotinspector.com.armor_inspector.4.4.0.mtmod
+  - net.openwg.common_2.7.3.0001.mtmod
+  - champi.littlehelpercollection_1.69.024.mtmod
+  - champi.settingsgui_1.79.mtmod
+- Removed:
+  - me.poliroid.frames_limiter_4.0.3.mtmod
+
 ### Version 53
 
 - 1.44.0.0
