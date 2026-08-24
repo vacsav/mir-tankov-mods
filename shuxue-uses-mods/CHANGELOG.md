@@ -1,10 +1,18 @@
 # CHANGELOG
 
+### Version 55
+
+- 1.44.0.0
+- Updated:  
+  - com.modxvm.xvm_13.1.0.0073.mtmod
+  - net.openwg.common_2.7.5.0000.mtmod
+  - ANIALLATOR.Extended_Sensitivity_Adjustment_1.0.1.mtmod
+
 ### Version 54
 
 - 1.44.0.0
 - Updated:  
-  - com.modxvm.xvm_13.1.0.0066_edit.mtmod
+  - com.modxvm.xvm_13.1.0.0066.mtmod
   - wotinspector.com.armor_inspector.4.4.0.mtmod
   - net.openwg.common_2.7.3.0001.mtmod
   - champi.littlehelpercollection_1.69.024.mtmod
