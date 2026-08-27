@@ -1,5 +1,15 @@
 # CHANGELOG
 
+### Version 56
+
+- 1.44.0.0
+- Changed:
+  - pmod: battleGui.json now is true
+- Removed:
+  - champi.steelhunterhelper_0.99.017.mtmod
+  - com.modxvm.xfw.crashfix_12.0.0.mtmod
+  - com.modxvm.xvm_13.1.0.0073.mtmod(all configs)
+
 ### Version 55
 
 - 1.44.0.0
