@@ -1,9 +1,26 @@
 # CHANGELOG
 
+### Version 57
+
+- 1.45.0.0
+- Updated:  
+  - Hawg_weather.mtmod
+  - me.poliroid.pmod_1.81.13.mtmod
+  - pruszko.dispersion_reticle_3.1.10.mtmod
+  - pruszko.responsive_reticle_1.0.11.mtmod
+  - shuxue.[R]DamageIndicator_1.0.11.mtmod
+  - shuxue.[R]LoadingGameAndBattle_1.2.4.mtmod
+  - shuxue.[R]Marker_1.0.15.mtmod
+  - shuxue.[R]Minimap_1.0.11.mtmod
+  - shuxue.[R]Reticle-Aqua-Ext_1.0.15.mtmod
+  - tweaker
+- Removed:
+  - champi and aslain
+
 ### Version 56
 
 - 1.44.0.0
-- Changed:
+- Changed:  
   - pmod: battleGui.json now is true
 - Removed:
   - champi.steelhunterhelper_0.99.017.mtmod
