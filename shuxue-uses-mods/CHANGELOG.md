@@ -1,5 +1,18 @@
 # CHANGELOG
 
+### Version 58
+
+- 1.45.0.0
+- Updated:  
+  - net.openwg.common_2.8.2.0000.mtmod
+  - me.poliroid.pmod_1.81.15.mtmod
+  - net.openwg.gameface_1.2.2.mtmod
+  - wotinspector.com.armor_inspector.4.5.0.mtmod
+- Added:
+  - wotstat.map-viewer_1.1.0.mtmod
+  - wotstat.spotting-points_1.0.0.mtmod
+  - wotstat.vegetation_1.0.0.mtmod
+
 ### Version 57
 
 - 1.45.0.0
