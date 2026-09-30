@@ -1,5 +1,18 @@
 # CHANGELOG
 
+### Version 59
+
+- 1.45.0.0
+- Updated:  
+  - net.openwg.common_2.8.3.0000.mtmod
+  - wotinspector.com.armor_inspector.4.5.1.mtmod
+- Added:
+  - nidin.improved_control_settings_1.0.11.mtmod
+  - nidin.onslaught_recon_bounds_1.2.7.mtmod
+- Removed:
+  - panikaxa.сontrol_settings_presets_1.1.0
+  - ANIALLATOR.Extended_Sensitivity_Adjustment_1.0.1.mtmod
+
 ### Version 58
 
 - 1.45.0.0
