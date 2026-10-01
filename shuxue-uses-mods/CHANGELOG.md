@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### Version 60
+
+- 1.45.0.0
+- Updated:  
+  - nidin.onslaught_recon_bounds_1.2.8.mtmod
+
 ### Version 59
 
 - 1.45.0.0
