@@ -1,4 +1,4 @@
-# Hawg mods for Lesta
+# ANIALLATOR mods for Lesta
 
 <p align="center">
 	&bull; <a href="#en">EN</a> &bull; <a href="#ru">RU</a> 
