@@ -6,9 +6,9 @@
 
 ## EN
 
-When connecting to the server, the player selects a training room if the default is a random battle
+When connecting to the server/after a battle, a training room is selected if the default/random battle is chosen
 
 
 ## RU
 
-При подключении к серверу выбирается тренировочная комната, если по умолчанию случайный бой
+При подключении к серверу/после боя выбирается тренировочная комната, если по умолчанию/выбран случайный бой
