@@ -1,5 +1,27 @@
 # CHANGELOG
 
+### Version 61
+
+- 1.46.0.0
+- Updated:  
+  - nidin.onslaught_recon_bounds_1.2.9.mtmod
+  - aslain.limpidstickers_2.18.mtmod
+  - Hawg_weather.mtmod
+  - izeberg.modssettingsapi_1.7.1.mtmod
+  - net.openwg.common_2.8.4.0000.mtmod
+  - me.poliroid.pmod_1.81.17.mtmod
+  - pruszko.dispersion_reticle_3.1.13.mtmod
+  - pruszko.responsive_reticle_1.0.12.mtmod
+  - shuxue.[R]DamageIndicator_1.0.12.mtmod
+  - shuxue.[R]Marker_1.0.16.mtmod
+  - shuxue.[R]Minimap_1.0.12.mtmod
+  - shuxue.[R]Reticle-Aqua-Ext_1.0.16.mtmod
+  - wotinspector.com.armor_inspector.4.5.3.mtmod
+  - wotstat.map-viewer_1.1.2.mtmod
+  - wotstat.spotting-points_1.1.2.mtmod
+  - wotstat.vegetation_1.0.1.mtmod
+- Note: Some mods will be updated in the near future
+
 ### Version 60
 
 - 1.45.0.0
