@@ -1,5 +1,15 @@
 # CHANGELOG
 
+### Version 62
+
+- 1.46.0.0
+- Updated:  
+  - net.openwg.fix.battleresultsreplays_1.1.0.mtmod
+  - net.openwg.fix.battleresultscache_1.9.0.mtmod
+  - tweaker
+- Removed:
+  - net.openwg.gameface_1.2.2.mtmod
+
 ### Version 61
 
 - 1.46.0.0
