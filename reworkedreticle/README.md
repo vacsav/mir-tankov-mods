@@ -6,6 +6,8 @@
 
 ## EN
 
+The centering has been fixed for all crosshairs, also:
+
 9 colors for the lines, 2 variants: one for the advanced damage indicator and one for the standard damage indicator
 
 You can customize the reticle in the settings, as it was done on the vanilla client
@@ -45,6 +47,8 @@ You can customize the reticle in the settings, as it was done on the vanilla cli
 </table>
 
 ## RU
+
+Исправлено центрирование для всех перекрестий, так же:
 
 9 цветов для линии, 2 варианта: один для расширенного индикатора урона и один для стандартного индикатора урона
 
