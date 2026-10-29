@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### 1.0.18
+
+- 1.46.0.0
+- Added:  
+  - Added portal mode
+
 ### 1.0.17
 
 - 1.46.0.0
@@ -18,7 +24,7 @@
 
 ### 1.0.12
 
-- Added:
+- Added:  
   - Historical battles
 
 ### 1.0.11
@@ -43,7 +49,8 @@
 
 ### 1.0.6
 
-- Added portal mode
+- Added:  
+  - Portal mode
 
 ### 1.0.4
 
