@@ -1,5 +1,23 @@
 # CHANGELOG
 
+### Version 63
+
+- 1.46.0.0
+- Updated:  
+  - shuxue.[R]Marker_1.0.18.mtmod
+  - shuxue.[R]Reticle-Aqua-Ext_1.0.17.mtmod
+  - wotinspector.com.armor_inspector.4.5.4.mtmod
+  - aslain.limpidstickers_3.0.01.mtmod
+  - nidin.improved_control_settings_1.1.1.mtmod
+- Added:
+  - nidin.improved_server_list_1.0.2.mtmod
+  - nidin.active_barrel_highlight_1.0.1.mtmod
+  - aslain.garageclock_1.0.03.mtmod
+  - aslain.hangman_3.0.03.mtmod
+  - aslain.modmenu_2.1.09.mtmod
+  - aslain.modssettingsbridge_1.0.3.mtmod
+  - net.openwg.gameface_1.2.2.mtmod
+
 ### Version 62
 
 - 1.46.0.0
